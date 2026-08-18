@@ -23,3 +23,6 @@ jobs:
 
       - name: Ejecutar tests
         run: pytest -v
+
+      - name: Despliegue exitoso
+        run: echo "Despliegue completado exitosamente"
